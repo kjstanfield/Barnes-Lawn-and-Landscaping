@@ -1,0 +1,78 @@
+/* ==============================
+   BASE 
+   ============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ==============================
+   HEADER 
+   ============================== */
+
+#header {
+    width: 100%;
+}
+
+/*----- Top Bar ----- */
+
+#topbar {
+    height: 9.7em;
+    background-color: #3a3a3a;
+    color: #777777;
+    font-size: 1.5em;
+}
+
+#topinfo {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topinfo .topitem {
+    width: 100%;
+    height: 1.5em;
+    text-align: left;
+    margin: 4px 0;
+}
+
+#topinfo .topitem:not(:last-child) {
+    border-bottom: 1px solid #777777;
+}
+
+/*----- Top Image ----- */
+
+#mainimg {
+    height: 30em;
+    background-image: url("../images/carousel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 4px solid #a2c046;
+    border-bottom: 5px solid #a2c046;
+}
+
+/* ==============================
+   Services 
+   ============================== */
+
+.container .service {
+    width: 50%;
+    height: 16em;
+    text-align: center;
+    background-color: lightblue;
+}
