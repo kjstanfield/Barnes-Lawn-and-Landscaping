@@ -29,35 +29,40 @@ body {
 /*----- Top Bar ----- */
 
 #topbar {
-    height: 9.7em;
     background-color: #3a3a3a;
     color: #777777;
-    font-size: 1.5em;
+    font-size: 35px;
 }
 
 #topinfo {
     width: 90%;
     margin: auto;
-    padding-top: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #topinfo .topitem {
     width: 100%;
-    height: 1.5em;
+    padding: 25px;
     text-align: left;
-    margin: 4px 0;
 }
 
 #topinfo .topitem:not(:last-child) {
     border-bottom: 1px solid #777777;
 }
 
+#topinfo img {
+    width: 5%;
+    margin-right: 10px;
+}
+
+/*----- Menu ----- */
+
+
 /*----- Top Image ----- */
 
 #mainimg {
-    height: 30em;
+    height: 45em;
     background-image: url("../images/carousel.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -65,6 +70,7 @@ body {
     border-top: 4px solid #a2c046;
     border-bottom: 5px solid #a2c046;
 }
+
 
 /* ==============================
    Services 
