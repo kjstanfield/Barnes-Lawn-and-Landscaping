@@ -31,7 +31,8 @@ body {
 #topbar {
     background-color: #3a3a3a;
     color: #777777;
-    font-size: 35px;
+    font-size: 1rem;
+    font-weight: 580;
 }
 
 #topinfo {
@@ -39,12 +40,15 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #topinfo .topitem {
     width: 100%;
-    padding: 25px;
+    padding: .8rem;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 #topinfo .topitem:not(:last-child) {
@@ -52,17 +56,14 @@ body {
 }
 
 #topinfo img {
-    width: 5%;
+    width: 4.5%;
     margin-right: 10px;
 }
-
-/*----- Menu ----- */
-
 
 /*----- Top Image ----- */
 
 #mainimg {
-    height: 45em;
+    height: 31rem;
     background-image: url("../images/carousel.png");
     background-repeat: no-repeat;
     background-position: center;
