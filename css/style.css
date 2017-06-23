@@ -18,6 +18,10 @@ body {
     flex-wrap: wrap;
 }
 
+.center {
+    margin: 0 auto;
+}
+
 /* ==============================
    HEADER 
    ============================== */
@@ -60,11 +64,15 @@ body {
     margin-right: 10px;
 }
 
+.topname {
+    font-weight: 600;
+}
+
 /*----- Top Image ----- */
 
 #mainimg {
     height: 31rem;
-    background-image: url("../images/carousel.png");
+    background-image: url("../images/carousel.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,3 +91,31 @@ body {
     text-align: center;
     background-color: green;
 }
+
+/* ==============================
+   About 
+   ============================== */
+
+
+ 
+
+/* ==============================
+   Map 
+   ============================== */
+
+   #placeholder {
+       width: 100%;
+       display: block;
+   }
+
+/* ==============================
+   Footer 
+   ============================== */
+
+   .upper {
+       background-color: #3c3c3c;
+   }
+
+   .lower {
+       background-color: #292929;
+   }
