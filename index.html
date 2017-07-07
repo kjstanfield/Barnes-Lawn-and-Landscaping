@@ -33,7 +33,7 @@
 
     <!-- Services -->
     <section id="services">
-        <div class="container">
+        <div class="servicesbox">
             <div class="service">Lawn Maintenance</div>
             <div class="service">Landscape Maintenance</div>
             <div class="service">Service 3</div>
@@ -44,23 +44,35 @@
 
     <!-- About -->
     <section id="about">
-        <div class="container">
+        <div class="aboutbox">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum tortor, molestie in tincidunt ac, maximus malesuada arcu. Vivamus eget erat lacinia libero venenatis laoreet. Nullam vitae est orci. Fusce blandit interdum turpis. Fusce at augue ultricies, convallis est id, imperdiet ligula. Nunc ut nunc non augue feugiat hendrerit. Maecenas eget enim efficitur, dictum velit in, dignissim erat. Maecenas ut bibendum lectus. Nunc ac tellus est.
             </p>
             <p>
                 Phasellus scelerisque venenatis orci, tempor blandit eros ullamcorper vitae. Ut at justo posuere, commodo lorem eu, pulvinar quam. Etiam tempor a leo pellentesque interdum. Etiam imperdiet auctor lacus, eu fringilla elit ullamcorper consequat. Pellentesque vehicula posuere diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sodales felis eget nulla dictum finibus. Aenean id rutrum tellus.        
             </p>
-            <div class="center">
-                <button id="contactbutton" type="button">Contact Us</button> 
-            </div> 
         </div>
     </section>
     <!-- /About -->
 
+    <!-- Contact -->
+    <section id="contact">
+        <div id="contactbox">
+            <h3>Contact Us</h3>
+            <input class="client_input" id="client_name" type="text" placeholder="Your Name ">
+            <input class="client_input" id="client_email" type="email" placeholder="Your E-mail ">
+            <input class="client_input" id="client_phone" type="tel" placeholder="Your Phone Number ">
+            <textarea class= "client_input" id="client_message" rows="9" placeholder="Your Message"></textarea>
+        </div>
+    </section>
+    <!-- /Contact -->
+
     <!-- Map -->
-    <section id="map">
-            <img id="placeholder" src="http://via.placeholder.com/300x300">
+    <section id="mapsection">
+        <div id="map"></div>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnu7X4wM6vgP8Qy2O7fSXvEQ4HyGG4Gvc&callback=initMap">
+        </script>
     </section>
     <!-- /Map -->
 
@@ -87,6 +99,5 @@
 
     <!-- JavaScript -->
     <script src="js/app.js" type="text/javascript"></script>
-
 </body>
 </html>
