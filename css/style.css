@@ -31,7 +31,7 @@ body {
 
 #mainimg img {
     margin: 2rem 1rem;
-    width: 80%;
+    width: 75%;
 }
 
 /*----- Top Bar ----- */
@@ -39,7 +39,7 @@ body {
 #topbar {
     background-color: #3a3a3a;
     color: #777777;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 580;
 }
 
@@ -54,6 +54,7 @@ body {
 #topinfo .topitem {
     width: 100%;
     padding: .9rem .8rem;
+    margin-bottom: 2px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -70,19 +71,19 @@ body {
 
 .topname {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 }
 
 /*----- Top Image ----- */
 
 #mainimg {
-    height: 31rem;
+    height: 45rem;
     background-image: url("../images/carousel.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-top: 4px solid #a2c046;
-    border-bottom: 5px solid #a2c046;
+    border-top: 6px solid #a2c046;
+    border-bottom: 7px solid #a2c046;
 }
 
 
@@ -97,11 +98,21 @@ body {
     margin: 20px 0 0 0;
 }
 
-.servicesbox .service {
-    width: 90%;
-    height: 40rem;
+.servicesbox .service:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.service {
+    width: 75%;
+    height: 35rem;
     text-align: center;
-    background-color: green;
+    font-size: 2rem;
+}
+
+.service img {
+    width: 50%;
+    display: block;
+    margin: 1.5rem auto;
 }
 
 /* ==============================
@@ -109,9 +120,9 @@ body {
    ============================== */
 
    .aboutbox {
-       width: 90%;
+       width: 85%;
        margin: 30px auto;
-       font-size: 1.3rem;
+       font-size: 1.9rem;
    }
 
 
@@ -142,15 +153,15 @@ body {
    #contactbox h3{
        width: 100%;
        text-align: center;
-       font-size: 1.6em;
-       margin: 15px 0 5px 0;
+       font-size: 2em;
+       margin: 15px 0 10px 0;
    }
 
    .client_input{
        width: 85%;
        margin: 13px 0;
        padding: 0 10px;
-       font-size: 1.2em;
+       font-size: 1.6em;
        border-style: solid;
        border: none;
        border-radius: 6px;
@@ -160,7 +171,7 @@ body {
    #client_name,
    #client_email,
    #client_phone{
-       height: 65px;
+       height: 70px;
    }
 
    #client_message {
