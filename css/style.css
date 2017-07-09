@@ -172,9 +172,9 @@ body {
        justify-content: center;
        border: 6px solid #EEEEEE;
        margin: auto;
-       width: 85%;
+       width: 80%;
        background-color: rgba(255, 255, 255, .7);
-       padding: 10px 0;
+       padding: 10px 0 25px 0;
    }
 
    #contactbox h3{
@@ -206,6 +206,43 @@ body {
        padding: 10px;
    }
 
+   #contactbuttons {
+       width: 100%;
+       text-align: center;
+   }
+
+   .formsubmit {
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 85%;
+        font-size: 1.8rem;
+        padding: 20px 80px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        transition: all 0.3s;
+        background: #8BC34A;
+        color: #fff;
+        box-shadow: 0 6px #689F38;
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+        border-radius: 5px;
+   }
+
+   .formsubmit:hover {
+        box-shadow: 0 8px #689F38;
+        top: -2px;
+    }
+
+    .formsubmit:active {
+        box-shadow: 0 0 #689F38;
+        top: 6px;
+    }
 
 /* ==============================
    Map

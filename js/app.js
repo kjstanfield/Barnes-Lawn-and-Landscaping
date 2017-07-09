@@ -14,6 +14,6 @@ $(document).ready(function(){
       autoplay: true,
       dots: true,
       fade: true,
-      adaptiveHeight: true
+      adaptiveHeight: false
   });
 });
