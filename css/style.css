@@ -17,6 +17,12 @@ body {
     margin: 0 auto;
 }
 
+.divider {
+    background-color: #fff;
+	border-top: .4rem dashed #7CB342;
+    margin: 3rem auto;
+}
+
 
 /* ==============================
    HEADER
@@ -53,6 +59,22 @@ body {
     align-items: center;
 }
 
+#topinfo .phonelink {
+    color: #777777;
+}
+
+#topinfo .phonelink:hover {
+    color: #fff;
+}
+
+#topinfo .phonelink:visited {
+    color: #777777;
+}
+
+.phonelink {
+    margin-left: 5px;
+}
+
 #topinfo .topitem {
     width: 100%;
     padding: .9rem .8rem;
@@ -67,8 +89,12 @@ body {
 }
 
 #topinfo img {
-    width: 4.5%;
+    width: 4%;
     margin-right: 10px;
+}
+
+#topinfo .facebook {
+    width: 7%
 }
 
 .topname {
@@ -107,7 +133,6 @@ body {
 
 .service {
     width: 75%;
-    height: 35rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -116,6 +141,13 @@ body {
     width: 50%;
     display: block;
     margin: 1.5rem auto;
+}
+
+.servicetitle {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 3rem;
 }
 
 
