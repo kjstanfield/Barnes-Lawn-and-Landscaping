@@ -1,7 +1,7 @@
 function initMap() {
-    var louisville = {lat: 38.200178, lng: -85.750351};
+    var louisville = {lat: 38.176575, lng: -85.770119};
     var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
+    zoom: 11,
     center: louisville,
     scrollwheel: false
     });
