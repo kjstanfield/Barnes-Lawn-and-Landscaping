@@ -136,6 +136,33 @@
         .service {
             height: 35rem;
         }
+
+        /*----- Gallery ----- */
+
+        .gallerybox{
+            width: 80%;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        /*----- Services ----- */
+
+        .service img {
+            width: 55%
+        }
+
+        .service {
+            height: 30rem;
+        }
+
+        /*----- Gallery ----- */
+
+        .gallerybox{
+            width: 75%;
+        }
+
     }
 
     @media screen and (min-width: 1460px) {
@@ -149,7 +176,7 @@
         /*----- Services ----- */
 
         .service {
-            height: 33rem;
+            height: 28rem;
         }
 
         /*----- Contact Box ----- */
@@ -157,4 +184,19 @@
         #contactbox {
             width: 28%;
         }
+
+        /*----- Gallery ----- */
+
+        .gallerybox{
+            width: 60%;
+        }
+
+        .slick-prev {
+            left: -70px;
+        }
+
+        .slick-next {
+            right: -60px;
+        }
+
     }
