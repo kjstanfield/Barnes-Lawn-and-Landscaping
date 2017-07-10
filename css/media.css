@@ -1,0 +1,78 @@
+/* ==============================
+   Media Queries
+   ============================== */
+
+    @media screen and (min-width: 768px) {
+
+        /*----- Top Bar ----- */
+
+        #topbar {
+            font-size: .8rem;
+            margin: none;
+        }
+        
+        #topinfo {
+            width: 95%;
+            flex-direction: row;
+            margin: none;
+        }
+
+        #topinfo .topitem {
+            padding: .5rem 0;
+            border: none;
+        }
+
+        .topname {
+            font-size: .8rem;
+            flex-grow: 3;
+        }
+
+        #topinfo .topitem:not(:last-child) {
+            border: none;
+        }
+
+        #topbar .icondiv {
+            width: 15%;
+        }
+
+        #topinfo .facebook {
+            width: .8rem;
+            margin-right: 0;
+        }
+
+        /*----- Services ----- */
+
+        .servicesbox {
+            flex-wrap: nowrap;
+            margin: none;
+        }
+
+        .service {
+            font-size: .9rem;
+            width: 20%;
+            margin: 0 1rem;
+            text-align: left;
+            
+        }
+
+        .servicesbox .service:not(:last-child){
+            margin-bottom: 0;
+        }
+
+        .servicetitle {
+            font-size: 1.9rem;
+            text-align: center;
+        }
+
+        .service img {
+            width: 80%;
+            display: block;
+        }
+
+        .serviceinfo {
+            background-color: blue;
+            justify-content: flex-end;
+        }
+
+
+    }

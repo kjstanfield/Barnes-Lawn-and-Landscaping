@@ -10,8 +10,9 @@ function initMap() {
 $(document).ready(function(){
   $('.gallerybox').slick({
       accessibility: true,
-      speed: 500,
+      speed: 700,
       autoplay: true,
+      autoplaySpeed: 2000,
       dots: true,
       fade: true,
       adaptiveHeight: false
