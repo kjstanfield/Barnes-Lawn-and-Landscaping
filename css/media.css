@@ -3,6 +3,13 @@
    ============================== */
 
     @media screen and (min-width: 768px) {
+        
+        /*----- Main Image ----- */
+
+        #mainimg {
+            height: 35rem;
+        }
+
 
         /*----- Top Bar ----- */
 
@@ -48,7 +55,7 @@
         }
 
         .service {
-            font-size: .9rem;
+            font-size: 1rem;
             width: 20%;
             margin: 0 1rem;
             text-align: left;
@@ -74,5 +81,26 @@
             justify-content: flex-end;
         }
 
+         /*----- About ----- */
+
+         .aboutbox {
+             font-size: 1.3rem;
+         }
+
+        .divider {
+            border-top: .25rem dashed #7CB342;
+        }
+
+        /*----- Gallery ----- */
+
+        .gallerybox {
+            width: 85%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before
+        {
+            display: block;
+        }
 
     }
