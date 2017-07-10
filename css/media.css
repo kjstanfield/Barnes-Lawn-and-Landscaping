@@ -59,7 +59,7 @@
             width: 20%;
             margin: 0 1rem;
             text-align: left;
-            
+            height: 37rem;
         }
 
         .service img {
@@ -121,16 +121,16 @@
     }
 
     @media screen and (min-width: 895px) {
+        /*----- Header ----- */
 
-        /*----- Services ----- */
-
-        .service {
-            height: 38rem;
+        #mainimg img {
+            width: 50%;
         }
-    }
 
-    @media screen and (min-width: 990px) {
-        
+        #topinfo .facebook {
+            width: 1.2rem;
+        }
+
         /*----- Services ----- */
 
         .service {
@@ -140,6 +140,12 @@
 
     @media screen and (min-width: 1460px) {
         
+        /*----- Header ----- */
+
+        #mainimg img {
+            width: 47%;
+        }
+
         /*----- Services ----- */
 
         .service {
