@@ -55,11 +55,7 @@
         }
 
         .service {
-            font-size: 1rem;
-            width: 20%;
-            margin: 0 1rem;
-            text-align: left;
-            height: 37rem;
+            
         }
 
         .service img {
@@ -77,10 +73,6 @@
             text-align: center;
         }
 
-        .serviceinfo {
-            position: absolute;
-            bottom:0;
-        }
 
          /*----- About ----- */
 
