@@ -19,7 +19,8 @@ body {
 
 .divider {
     background-color: #fff;
-	border-top: .3rem dashed #7CB342;
+    border-top: .3rem dashed #7CB342;
+    border-bottom: none;
     margin: 2rem auto;
     
 }
