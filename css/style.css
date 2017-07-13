@@ -17,6 +17,8 @@ body {
     margin: 0 auto;
 }
 
+/*----- Horizontal Line ----- */
+
 .divider {
     background-color: #fff;
     border-top: .3rem dashed #7CB342;
@@ -24,6 +26,8 @@ body {
     margin: 2rem auto;
     
 }
+
+/*----- Scroll to top button ----- */
 
 #topbutton {
     display: none;
@@ -274,6 +278,8 @@ body {
        width: 100%;
        text-align: center;
    }
+
+   /*----- Form Button ----- */
 
    .formsubmit {
         border: none;
