@@ -19,18 +19,37 @@ $(document).ready(function(){
   });
 });
 
-window.onscroll = function() {scrollFunction()};
+$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('#topbutton').fadeIn();
+		} else {
+			$('#topbutton').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('#topbutton').click(function(){
+		$('html, body').animate({scrollTop : 0},300);
+		return false;
+	});
+	
+});
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("topbutton").style.display = "block";
-    } else {
-        document.getElementById("topbutton").style.display = "none";
-    }
-}
+// window.onscroll = function() {scrollFunction()};
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-}
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         document.getElementById("topbutton").style.display = "block";
+//     } else {
+//         document.getElementById("topbutton").style.display = "none";
+//     }
+// }
+
+// // When the user clicks on the button, scroll to the top of the document
+// function topFunction() {
+//     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+//     document.documentElement.scrollTop = 0; // For IE and Firefox
+// }

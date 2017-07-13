@@ -46,35 +46,18 @@
             width: .8rem;
             margin-right: 0;
         }
-
         /*----- Services ----- */
 
-        .servicesbox {
-            flex-wrap: nowrap;
-            margin: none;
-        }
-
         .service {
-            
-        }
-
-        .service img {
-            width: 80%;
-            display: block;
-        }
-
-
-        .servicesbox .service:not(:last-child){
-            margin-bottom: 0;
+            width: 40%
         }
 
         .servicetitle {
-            font-size: 1.9rem;
-            text-align: center;
+            font-size: 2rem;
         }
 
 
-         /*----- About ----- */
+        /*----- About ----- */
 
          .aboutbox {
              font-size: 1.3rem;
@@ -112,7 +95,7 @@
 
     }
 
-    @media screen and (min-width: 895px) {
+    @media screen and (min-width: 920px) {
         /*----- Header ----- */
 
         #mainimg img {
@@ -125,8 +108,24 @@
 
         /*----- Services ----- */
 
-        .service {
-            height: 35rem;
+        .servicesbox {
+            flex-wrap: nowrap;
+            margin: none;
+        }
+
+        .serviceinfo {
+            margin-top: auto;
+            justify-content: flex-end;
+        }
+
+        .service img {
+            width: 60%;
+            display: block;
+        }
+
+        .servicetitle {
+            font-size: 1.9rem;
+            text-align: center;
         }
 
         /*----- Gallery ----- */
@@ -143,10 +142,6 @@
 
         .service img {
             width: 55%
-        }
-
-        .service {
-            height: 30rem;
         }
 
         /*----- Gallery ----- */

@@ -20,7 +20,8 @@ body {
 .divider {
     background-color: #fff;
 	border-top: .3rem dashed #7CB342;
-    margin: 3rem auto;
+    margin: 2rem auto;
+    
 }
 
 #topbutton {
@@ -34,7 +35,7 @@ body {
     background-color: rgba(66,66,66 , .6);
     color: white;
     cursor: pointer;
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 #topbutton img {
-    width: 1.5rem;
+    width: 1.3rem;
 }
 
 /* ==============================
@@ -139,26 +140,25 @@ body {
    ============================== */
 
 .servicesbox {
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 0 0 0;
-}
-
-.servicesbox .service:not(:last-child){
-    margin-bottom: 25px;
+    width: 90%;
 }
 
 .service {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 80%;
+    margin: .5rem;
 }
 
 .service img {
-    width: 55%;
+    width: 40%;
     display: block;
-    margin: 1.5rem auto;
+    margin: 1.9rem auto;
 }
 
 .servicetitle {
@@ -166,6 +166,11 @@ body {
     font-weight: 800;
     margin-bottom: 1rem;
     font-size: 2.4rem;
+}
+
+.serviceinfo {
+    width: 80%;
+    margin: 0 auto 1.2rem auto;
 }
 
 
@@ -221,7 +226,7 @@ body {
        justify-content: center;
        border: 6px solid #EEEEEE;
        margin: auto;
-       width: 80%;
+       width: 75%;
        background-color: rgba(255, 255, 255, .7);
        padding: 8px 0 25px 0;
        box-shadow: 10px 20px 5px rgba(0, 0, 0, .2);
@@ -245,6 +250,12 @@ body {
        border: none;
        border-radius: 6px;
        background-color: #F5F5F5;
+   }
+
+   .client_input:focus {
+       border: solid;
+       border-color: #8BC34A;
+       outline: none;
    }
 
    #client_name,
