@@ -79,6 +79,14 @@
             display: block;
         }
 
+        .slick-prev {
+            
+        }
+
+        .slick-next {
+            
+        }
+
         /*----- Contact Box ----- */
 
         #contactbox {
@@ -167,26 +175,9 @@
             width: 47%;
         }
 
-        /*----- Services ----- */
-
         /*----- Contact Box ----- */
 
         #contactbox {
             width: 28%;
         }
-
-        /*----- Gallery ----- */
-
-        .gallerybox{
-            width: 60%;
-        }
-
-        .slick-prev {
-            left: -70px;
-        }
-
-        .slick-next {
-            right: -60px;
-        }
-
     }
