@@ -79,6 +79,7 @@ body {
 
 #topinfo .phonelink {
     color: #777777;
+    cursor: pointer;
 }
 
 #topinfo .phonelink:hover {
@@ -329,6 +330,10 @@ body {
 /* ==============================
    Footer
    ============================== */
+
+   #footer a{
+       cursor: pointer;
+   }
 
    .upper {
        background-color: #3c3c3c;
