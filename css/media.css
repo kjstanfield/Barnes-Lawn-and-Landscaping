@@ -121,6 +121,7 @@
         .service img {
             width: 60%;
             display: block;
+            margin-bottom: 3rem;
         }
 
         .servicetitle {
