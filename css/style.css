@@ -214,6 +214,11 @@ body {
         display: none;
     }
 
+    .slick-prev,
+    .slick-next {
+        width: 0;
+    }
+
     
 
 /* ==============================

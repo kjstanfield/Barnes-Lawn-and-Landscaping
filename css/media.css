@@ -79,12 +79,9 @@
             display: block;
         }
 
-        .slick-prev {
-            
-        }
-
+        .slick-prev,
         .slick-next {
-            
+            width: 40px;
         }
 
         /*----- Contact Box ----- */
